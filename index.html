@@ -3,12 +3,18 @@
         <title>Metro Bus in Rockville</title>
     </head>
     <style>
-        iframe{
-            font-size: 3em;
+       iframe {
+            zoom: 2;
+            -moz-transform:scale(2);
+            -moz-transform-origin: 0 0;
+            -o-transform: scale(2);
+            -o-transform-origin: 0 0;
+            -webkit-transform: scale(2);
+            -webkit-transform-origin: 0 0;
         }
     </style>
 <body>
     <iframe src="https://rideon.app/busstop?take=15&MarginTop=25&MarginLeft=6&stopid=8056" height="50%" width="100%" title="Holiday Senior Center Stop"></iframe>
-    <iframe src="https://rideon.app/busstop?take=15&MarginTop=25&MarginLeft=6&stopid=7864" height="50%" width="100%" title="Parkland Stop"></iframe>
+    <iframe id="myFrame" src="https://rideon.app/busstop?take=15&MarginTop=25&MarginLeft=6&stopid=7864" height="50%" width="100%" title="Parkland Stop"></iframe>
 </body>
 </html>
